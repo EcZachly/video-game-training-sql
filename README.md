@@ -1,6 +1,8 @@
 # Serious SQL Video Game Training
 This is the repo that has all the queries and data for my Serious SQL video game training series!
 
+The portfolio project for these trainings is located at https://www.halogods.com
+
 ## Base Data Model (getting started)
 
 1. Install Postgres locally (Homebrew is really nice for installing on Mac)
