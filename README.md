@@ -7,7 +7,7 @@ This is the repo that has all the queries and data for my Serious SQL video game
 This [tutorial](https://daily-dev-tips.com/posts/installing-postgresql-on-a-mac-with-homebrew/) is what I used
 2. Use the data dump and pg_restore to create a new database. 
 ```
-pg_restore -U <yourusername> -d postgres --no-owner "halo5-dump.sql"
+pg_restore -U <yourusername> -d postgres --no-owner "halo-data.dump"
 ```
 3. Set up DataGrip to point at your locally running Postgres instance
 4. Have fun querying!
