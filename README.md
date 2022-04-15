@@ -21,8 +21,12 @@ pg_restore -U <yourusername> -d postgres --no-owner "halo-data.dump"
 
 ### Self Join Training
 - YouTube [link](https://www.youtube.com/watch?v=dbgK6cx--IY)
-- Queries can be found in self-join-training folder
+- Queries
+1. [Self Join Teammate analysis query](self-join-training/self-join-analysis-query.sql)
 
 
 ### Window Functions Training
-- Coming Soon!
+- YouTube (coming soon!)
+- Queries 
+1. [Win and lose streaks](window-function-training/win_and_lose_streaks.sql)
+2. [Hot and Cold Bounded Window Functions](window-function-training/hot_and_cold_ratios.sql)
