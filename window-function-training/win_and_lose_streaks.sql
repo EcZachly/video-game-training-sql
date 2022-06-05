@@ -29,8 +29,7 @@ WITH augmented_matches AS (
      ),
      grouped AS (
          SELECT *,
-                SUM(new_streak)
-                OVER
+                SUM(new_streak) OVER
                     (PARTITION BY player_gamertag, playlist
                     ORDER BY completion_date) AS streak_group
          FROM streak_groups

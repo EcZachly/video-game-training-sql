@@ -26,7 +26,8 @@ pg_restore -U <yourusername> -d postgres --no-owner "halo-data.dump"
 
 
 ### Window Functions Training
-- YouTube (coming soon!)
+- YouTube [link](https://www.youtube.com/watch?v=ejeGJHeKn-o)
 - Queries 
-1. [Win and lose streaks](window-function-training/win_and_lose_streaks.sql)
-2. [Hot and Cold Bounded Window Functions](window-function-training/hot_and_cold_ratios.sql)
+1. [Simple consecutive streaks](window-function-training/rank_filter_streaks.sql) (covered in YT video)
+2. [Win and lose streaks](window-function-training/win_and_lose_streaks.sql) (extra credit example)
+3. [Hot and Cold Bounded Window Functions](window-function-training/hot_and_cold_ratios.sql) (extra credit example)
